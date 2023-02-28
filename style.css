@@ -51,6 +51,7 @@ main{
         flex-direction: column;
         width:50%;
         margin-bottom: 2rem;
+        color:white;
     }
     h1{
         color:#9F7FDB;
@@ -70,7 +71,11 @@ main{
         margin-bottom: 30px;
         font-size: 20px;
         padding-left:20px;
-        color: white;
+        color:white;
+    }
+    ::placeholder{
+        color:white;
+        font-family: 'Baloo 2';
     }
     button{
         border-radius: 8px;
