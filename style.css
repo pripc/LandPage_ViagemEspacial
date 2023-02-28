@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&display=swap');
+
+html {
+    min-height: 100%;
+}
+
+body{
+    background-image: linear-gradient(135deg, rgba(12,15,7,1), rgba(31,16,43,1), rgba(35,25,62,1));
+    background-size: cover;
+}
+header{
+    display:grid;
+    grid-auto-flow: column;
+    grid-template-columns: 20% 80%;
+    margin-left:30px;
+
+}
+ul{
+    display:flex;
+    list-style: none;
+    align-items: center;
+    justify-content: right;
+    
+    color:#E0DAED;
+    padding: 0;
+    margin-right:50px;
+    font-size:30px;
+    
+} 
+ul li{
+    margin-left:40px;
+    font-family: 'Baloo 2';
+    font-weight: bold;
+    cursor: pointer;
+}
+main{
+    display:grid;
+    grid-auto-flow: column;
+    grid-template-columns: 50% 50%;
+    margin-top:30px;
+}
+    main section#firstSection{
+        margin-left:10rem;
+        display:flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items:center;
+    }
+    main section#firstSection form{
+        display:flex;
+        flex-direction: column;
+        width:50%;
+        margin-bottom: 2rem;
+    }
+    h1{
+        color:#9F7FDB;
+        font-family: 'Baloo 2';
+        font-size: 60px;
+        text-transform: uppercase;
+        font-weight: bolder;
+        margin-left:180px;
+        margin-right:180px;
+
+        text-align: center;
+    }
+    input{
+        background-color: #9F7FDB;
+        height:50px;
+        border-radius: 10px;
+        margin-bottom: 30px;
+        font-size: 20px;
+        padding-left:20px;
+        color: white;
+    }
+    button{
+        border-radius: 8px;
+        border-style: none;
+        height: 70px;
+        font-family: 'Baloo 2';
+        font-size: 24px;
+        padding-left:28px;
+        padding-right:28px;
+        color:white;
+        font-weight: 700;
+    }
+    button#button1{
+        background-color: #7834F3;
+    }
+    button#button2{
+        background-color: #9F7FDB;
+        margin-left: 3rem;
+
+    }
+
+    #secondSection{
+        display: flex;
+        justify-content: center;
+
+    }
