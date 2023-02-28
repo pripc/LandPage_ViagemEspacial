@@ -7,6 +7,8 @@ button.addEventListener('click', () => {
         if(nome.value.length !== 0 && email.value.includes('@')) {
         message.classList.remove('UserMessage');
         message.innerHTML = 'Cadastro efetuado com sucesso!'
+        nome.value = ' '
+        email.value = ' '
     }else{
         message.classList.remove('UserMessage');
         message.innerHTML = 'Não foi possível efetuar seu cadastro'
